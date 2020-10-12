@@ -191,6 +191,8 @@ padding-top: 200px;
  }
 
 /*чим ми займаємось млдуль 3 вебінар 5 34 хвилина*/
+
+/*видалити і переписати, для тега h2 дати інший клас!!!*/
 .section-ourwork .container{
   font-weight: 700;
   font-size: 36px;
@@ -204,6 +206,9 @@ padding-top: 200px;
   margin-bottom: 50px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+/*видалити і переписати*/
+
+
 .section-ourwork.h2 {
   padding: 0px;
   margin: 0px;
