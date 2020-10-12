@@ -6,6 +6,8 @@
 /* колір фону main+footer #2f303a; */
 /* другорядний колір фону сайту  #F5F4FA; */
 
+/*  outline: 2px solid red;*/
+/* background-color: blue */
 :root {
 --white-color: #ffffff;
 --black-color: #000000;
@@ -26,12 +28,17 @@ body {
 .header {
   background-color: var(--white-color);
   font-family: Roboto, sans-serif;
-  width: 1200px;
+  width: 1600px;
+  margin: 0 auto;
   outline: 2px solid red;
 }
   /*Контейнер nav*/
 .container {
-
+width: 1230px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+outline: 2px solid red;
 }
 
 /* Лого */
@@ -115,6 +122,7 @@ body {
 /* Секція герой */
 .section-hero {
 background-color: var(--main-footer-background-color);
+text-align: center;
 }
 .hero-title {
   font-style: normal;
@@ -124,8 +132,7 @@ background-color: var(--main-footer-background-color);
   text-transform: uppercase;
   color: var(--white-color);
   margin-top: 0;
-  margin-bottom: 0;
-  outline: 2px solid red;
+  margin-bottom: 30px;
 
 }
 
@@ -210,6 +217,9 @@ background-color: var(--main-footer-background-color);
 
 .footer {
   background-color: var(--main-footer-background-color);
+  width: 1600px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 /* Підвал сторінки логотип */
 .webstudio-footer {
