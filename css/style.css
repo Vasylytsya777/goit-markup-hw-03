@@ -122,9 +122,10 @@ outline: 2px solid red;
 .section-hero {
 background-color: var(--main-footer-background-color);
 text-align: center;
-margin-bottom: 94px;
+padding-top: 200px;
 
 }
+
 .hero-title {
   font-style: normal;
   font-weight: 900;
@@ -133,7 +134,6 @@ margin-bottom: 94px;
   text-transform: uppercase;
   color: var(--white-color);
   margin-top: 0px;
-  padding-top: 200px;;
   margin-bottom: 30px;
 
 }
@@ -159,7 +159,9 @@ margin-bottom: 94px;
 /* Секція особливості*/
 
 .section-features{
-  padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 79px;
+  outline: 2px solid red;
 }
 .section-features .caption {
   font-weight: 700;
@@ -170,7 +172,7 @@ margin-bottom: 94px;
   letter-spacing: 0.03em;
   margin-top: 0px;
   margin-bottom: 10px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
 }
 
 .section-features .text {
@@ -179,25 +181,34 @@ margin-bottom: 94px;
   line-height: 1.71;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
+  margin-bottom: 0px;
   
 }
 
 
 .section-ourwork{
-  margin-bottom: 94px;
-}
-/*чим ми займаємось*/
-.section-ourwork .caption {
+  margin-bottom: 109px;
+ }
+
+/*чим ми займаємось млдуль 3 вебінар 5 34 хвилина*/
+.section-ourwork .container{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2px;
   text-align: center;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
+  outline: 5px solid red;
+  padding-top: 0px;
+  margin-top: 0px;
   margin-bottom: 50px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-
+.section-ourwork.h2 {
+  padding: 0px;
+  margin: 0px;
+  outline: 2px solid rgb(0, 255, 42);
+}
 
 /* наша команда*/
 .section-ourteam {
@@ -215,6 +226,9 @@ margin-bottom: 94px;
   padding: 0px;
 }
 
+.section-ourteam .image {
+  margin-bottom: 30px;
+}
 
 .section-ourteam .subject {
   font-weight: 500;
@@ -222,6 +236,7 @@ margin-bottom: 94px;
   line-height: 1.2px;
   color: var(--main-text-color);
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .section-ourteam .heading {
@@ -230,6 +245,7 @@ margin-bottom: 94px;
   line-height: 19px;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
+  margin-bottom: 0px;
 }
 
 /* footer підвал*/
