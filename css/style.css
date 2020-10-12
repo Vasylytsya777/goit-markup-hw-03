@@ -5,11 +5,6 @@
 /* другорядний колір тексту #757575; */
 /* колір фону main+footer #2f303a; */
 /* другорядний колір фону сайту  #F5F4FA; */
-/* {
-  margin: 0;
-  padding: 0;
-}
-*/
 
 :root {
 --white-color: #ffffff;
@@ -20,15 +15,6 @@
 --main-footer-background-color: #2f303a;
 --background-grey-color: #f5f4fa;
 }
-/*
-var(--white-color);
-var(--black-color);
-var(--accent-color);
-var(--main-text-color);
-var(--secondary-text-color);
-var(--main-footer-background-color);
-var(--background-grey-color);
-*/
 
 body {
   font-family: Roboto, sans-serif;
@@ -40,8 +26,10 @@ body {
 .header {
   background-color: var(--white-color);
   font-family: Roboto, sans-serif;
+  width: 1200px;
+  outline: 2px solid red;
 }
-/* Контейнер nav */
+  /*Контейнер nav*/
 .container {
 
 }
@@ -60,6 +48,8 @@ body {
 }
 
 .list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -124,15 +114,19 @@ body {
  }
 /* Секція герой */
 .section-hero {
-  background-color: var(--main-footer-background-color);
+background-color: var(--main-footer-background-color);
 }
-.title {
+.hero-title {
   font-style: normal;
   font-weight: 900;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  outline: 2px solid red;
+
 }
 
 .button {
@@ -228,7 +222,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.adress-footer {
+.adress-footer .white{
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -238,6 +232,11 @@ body {
 }
 
 .adress-footer a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color:  rgba(255, 255, 255, 0.6);
   text-decoration: none;
  }
