@@ -154,12 +154,12 @@ margin-bottom: 94px;
   letter-spacing: 0.06em;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 /* Секція особливості*/
 
 .section-features{
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .section-features .caption {
   font-weight: 700;
@@ -179,8 +179,9 @@ margin-bottom: 200px;
   line-height: 1.71;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
-  margin-top: 0px;
+  
 }
+
 
 .section-ourwork{
   margin-bottom: 94px;
@@ -193,9 +194,10 @@ margin-bottom: 200px;
   text-align: center;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
+
+
 
 /* наша команда*/
 .section-ourteam {
@@ -209,6 +211,8 @@ margin-bottom: 200px;
   text-align: center;
   color: var(--main-text-color);
   letter-spacing: 0.03em;
+  margin-top: 0px;
+  padding: 0px;
 }
 
 
@@ -235,6 +239,7 @@ margin-bottom: 200px;
   width: 1600px;
   margin: 0 auto;
   outline: 2px solid red;
+  padding-top: 60px;
 }
 /* Підвал сторінки логотип */
 .webstudio-footer {
@@ -245,6 +250,12 @@ margin-bottom: 200px;
   color: var(--white-color);
   text-decoration: none;
   letter-spacing: 0.03em;
+  padding-bottom: 20px;
+}
+.adress-footer{
+  padding-bottom: 60px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .adress-footer .white{
