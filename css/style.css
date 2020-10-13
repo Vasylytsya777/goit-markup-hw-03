@@ -397,6 +397,12 @@ body {
 }
 
 /*=====================    Портфоліо    =====================*/
+.button-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
 .button-menu {
   display: inline-block;
   font-family: "Roboto", sans-serif;
@@ -412,9 +418,14 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   padding: 6px 22px;
-  margin-top: 112px;
-  margin-bottom: 56px;
+  margin-top: 106px;
+  margin-bottom: 50px;
 }
+
+.button-container .item + .item {
+  margin-left: 8px;
+}
+
 .button-menu:hover {
   background-color: var(--accent-color);
   color: var(--white-color);
@@ -422,12 +433,37 @@ body {
 
 /* секція робіт з картинками*/
 
+.visually-container .item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.visually-container .item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.visually-container .item:nth-child(3n) {
+  margin-right: 0px;
+}
+.visually-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 82px;
+}
+
+.visually-container .item {
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
 .stitle {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
+  margin-bottom: 4px;
+  margin: 0px 24px 0px;
 }
 
 .ptitle {
@@ -436,4 +472,10 @@ body {
   line-height: 1.87;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
+  margin: 0px 24px 0px;
+  margin-bottom: 20px;
+}
+
+.visually-container .image {
+  margin-bottom: 20px;
 }
