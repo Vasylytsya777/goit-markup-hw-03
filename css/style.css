@@ -14,13 +14,13 @@
   bottom: 0px;
 }
 :root {
---white-color: #ffffff;
---black-color: #000000;
---accent-color: #2196f3;
---main-text-color: #212121;
---secondary-text-color: #757575;
---main-footer-background-color: #2f303a;
---background-grey-color: #f5f4fa;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --accent-color: #2196f3;
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --main-footer-background-color: #2f303a;
+  --background-grey-color: #f5f4fa;
 }
 
 body {
@@ -36,15 +36,15 @@ body {
   margin: 0 auto;
   outline: 2px solid red;
 }
-  /*Контейнер nav*/
+/*Контейнер nav*/
 .container {
   margin-left: auto;
   margin-right: auto;
-width: 1230px;
-padding-left: 15px;
-padding-right: 15px;
-margin: 0 auto;
-outline: 2px solid red;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 
 /* Лого */
@@ -66,9 +66,8 @@ outline: 2px solid red;
   list-style: none;
 }
 
-
 /* Навігаія сайту */
-.nav-site a{
+.nav-site a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -86,7 +85,7 @@ outline: 2px solid red;
 }
 
 /* Авторизація сайту */
-.nav-auth a{
+.nav-auth a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -121,16 +120,15 @@ outline: 2px solid red;
   overflow: hidden;
 }
 */
- /*main*/
- .main {
+/*main*/
+.main {
   font-family: Roboto, sans-serif;
- }
+}
 /*Секція герой */
 .section-hero {
-background-color: var(--main-footer-background-color);
-text-align: center;
-padding-top: 200px;
-
+  background-color: var(--main-footer-background-color);
+  text-align: center;
+  padding-top: 200px;
 }
 
 .hero-title {
@@ -142,7 +140,6 @@ padding-top: 200px;
   color: var(--white-color);
   margin-top: 0px;
   margin-bottom: 30px;
-
 }
 
 .button {
@@ -165,7 +162,7 @@ padding-top: 200px;
 }
 /* Секція особливості*/
 
-.section-features{
+.section-features {
   padding-top: 94px;
   padding-bottom: 79px;
   outline: 2px solid red;
@@ -179,7 +176,6 @@ padding-top: 200px;
   letter-spacing: 0.03em;
   margin-top: 0px;
   margin-bottom: 10px;
-
 }
 
 .section-features .text {
@@ -189,11 +185,9 @@ padding-top: 200px;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
   margin-bottom: 0px;
-  
 }
 
-
-.section-ourwork{
+.section-ourwork {
   margin-top: 0px;
   margin-bottom: 109px;
 }
@@ -201,18 +195,18 @@ padding-top: 200px;
 /*чим ми займаємось млдуль 3 вебінар 5 34 хвилина*/
 
 /*видалити і переписати, для тега h2 дати інший клас!!!*/
-.section-ourwork .headline{
-   font-weight: 700;
-   margin-top: 0px;
-   margin-bottom: 50px;
-   color: var(--primary-text-color);
-   text-align: center;
-   outline: 5px solid red;
-   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
-   font-weight: 700;
-   font-size: 36px;
-   line-height: 1.2;
-   letter-spacing: 0.03em;
+.section-ourwork .headline {
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: var(--primary-text-color);
+  text-align: center;
+  outline: 5px solid red;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /* наша команда*/
@@ -256,7 +250,7 @@ padding-top: 200px;
 /* footer підвал*/
 
 .footer {
-  background-color: var(--main-footer-background-color);  
+  background-color: var(--main-footer-background-color);
   margin: 0 auto;
   outline: 2px solid red;
   padding-top: 60px;
@@ -273,12 +267,11 @@ padding-top: 200px;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
-.adress-footer{
+.adress-footer {
   margin: 0px;
-
 }
 
-.adress-footer .white{
+.adress-footer .white {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -293,9 +286,9 @@ padding-top: 200px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color:  rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
- }
+}
 
 .mail:hover,
 .mail:focus {
@@ -306,7 +299,6 @@ padding-top: 200px;
 .tel:focus {
   color: var(--accent-color);
 }
-
 
 /*=====================    Портфоліо    =====================*/
 .button-menu {
@@ -320,7 +312,8 @@ padding-top: 200px;
   color: var(--main-text-color);
   border: none;
   background-color: var(--background-grey-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   padding: 6px 22px;
   margin-top: 112px;
