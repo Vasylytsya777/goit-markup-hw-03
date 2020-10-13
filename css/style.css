@@ -9,6 +9,12 @@
 /*  outline: 2px solid red;*/
 /* background-color: blue */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 * {
   margin: 0px;
   bottom: 0px;
@@ -79,9 +85,11 @@ body {
 .logo {
   color: var(--accent-color);
 }
+
 .nav-site {
   display: flex;
 }
+
 .nav-site .link {
   display: block;
   padding-top: 32px;
@@ -158,10 +166,12 @@ body {
   overflow: hidden;
 }
 */
-/*main*/
+
+/*=============    MAIN    ==============*/
 .main {
   font-family: Roboto, sans-serif;
 }
+/*=============   HERO   ==============*/
 /*Секція герой */
 .section-hero {
   background-color: var(--main-footer-background-color);
@@ -181,7 +191,7 @@ body {
   margin-top: 0px;
   margin-bottom: 30px;
 }
-
+/*=============   BUTTON   ==============*/
 .button {
   /* font-family: inherit; */
   display: inline-block;
@@ -201,7 +211,7 @@ body {
   margin-bottom: 200px;
 }
 /* Секція особливості*/
-
+/*=============   FEATURES   ==============*/
 .section-features {
   padding-top: 94px;
   padding-bottom: 79px;
@@ -234,6 +244,9 @@ body {
   margin-bottom: 109px;
   display: flex;
 }
+
+/*=============   OUR WORK   ==============*/
+
 /*чим ми займаємось млдуль 3 вебінар 5 34 хвилина*/
 
 /*видалити і переписати, для тега h2 дати інший клас!!!*/
@@ -250,7 +263,7 @@ body {
   line-height: 1.667;
   letter-spacing: 0.03em;
 }
-
+/*=============   OUR TEAM   ==============*/
 /* наша команда*/
 .section-ourteam {
   background-color: var(--background-grey-color);
@@ -288,6 +301,8 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 0px;
 }
+
+/*=============   FOOTER   ==============*/
 
 /* footer підвал*/
 
