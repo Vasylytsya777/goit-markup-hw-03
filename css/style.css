@@ -303,11 +303,8 @@ padding-top: 200px;
   color: var(--accent-color);
 }
 
-
-
 .button-menu {
   display: inline-block;
-  background-color: var(--background-grey-color);
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -316,20 +313,20 @@ padding-top: 200px;
   text-align: center;
   color: var(--main-text-color);
   border: none;
+  background-color: var(--background-grey-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   padding: 6px 22px;
+  margin-top: 112px;
+  margin-bottom: 56px;
 }
-
 .button-menu:hover {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
 
 /* секція робіт з картинками*/
-.samples-list {
-  list-style: none;
-}
+
 .stitle {
   font-weight: 700;
   font-size: 18px;
