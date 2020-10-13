@@ -52,7 +52,6 @@ body {
   background-color: var(--white-color);
   font-family: Roboto, sans-serif;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 /*Контейнер nav*/
 .container {
@@ -62,7 +61,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 
 /* Навігаія сайту */
@@ -226,7 +224,6 @@ body {
 .section-features {
   padding-top: 94px;
   padding-bottom: 79px;
-  outline: 2px solid red;
 }
 .section-features .caption {
   font-weight: 700;
@@ -274,7 +271,6 @@ body {
   margin-bottom: 50px;
   color: var(--primary-text-color);
   text-align: center;
-  outline: 5px solid red;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-weight: 700;
   font-size: 36px;
@@ -348,7 +344,6 @@ body {
 .footer {
   background-color: var(--main-footer-background-color);
   margin: 0 auto;
-  outline: 2px solid red;
   padding-top: 60px;
   padding-bottom: 60px;
 }
