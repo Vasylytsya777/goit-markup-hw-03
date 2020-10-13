@@ -8,6 +8,11 @@
 
 /*  outline: 2px solid red;*/
 /* background-color: blue */
+
+* {
+  margin: 0px;
+  bottom: 0px;
+}
 :root {
 --white-color: #ffffff;
 --black-color: #000000;
@@ -23,7 +28,7 @@ body {
   background-color: var(--white-color);
   letter-spacing: 0.03em;
 }
- 
+                                        /*Студія*/
 /* Шапка сторінки */
 .header {
   background-color: var(--white-color);
@@ -191,7 +196,7 @@ padding-top: 200px;
 .section-ourwork{
   margin-top: 0px;
   margin-bottom: 109px;
-   }
+}
 
 /*чим ми займаємось млдуль 3 вебінар 5 34 хвилина*/
 
@@ -251,11 +256,11 @@ padding-top: 200px;
 /* footer підвал*/
 
 .footer {
-  background-color: var(--main-footer-background-color);
-  width: 1600px;
+  background-color: var(--main-footer-background-color);  
   margin: 0 auto;
   outline: 2px solid red;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 /* Підвал сторінки логотип */
 .webstudio-footer {
@@ -266,12 +271,11 @@ padding-top: 200px;
   color: var(--white-color);
   text-decoration: none;
   letter-spacing: 0.03em;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .adress-footer{
-  padding-bottom: 60px;
   margin: 0px;
-  padding: 0px;
+
 }
 
 .adress-footer .white{
@@ -303,6 +307,8 @@ padding-top: 200px;
   color: var(--accent-color);
 }
 
+
+                    /*Портфоліо*/
 .button-menu {
   display: inline-block;
   font-family: "Roboto", sans-serif;
