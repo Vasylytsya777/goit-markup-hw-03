@@ -33,6 +33,8 @@ body {
 }
   /*Контейнер nav*/
 .container {
+  margin-left: auto;
+  margin-right: auto;
 width: 1230px;
 padding-left: 15px;
 padding-right: 15px;
@@ -187,32 +189,25 @@ padding-top: 200px;
 
 
 .section-ourwork{
+  margin-top: 0px;
   margin-bottom: 109px;
- }
+   }
 
 /*чим ми займаємось млдуль 3 вебінар 5 34 хвилина*/
 
 /*видалити і переписати, для тега h2 дати інший клас!!!*/
-.section-ourwork .container{
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2px;
-  text-align: center;
-  color: var(--primary-text-color);
-  letter-spacing: 0.03em;
-  outline: 5px solid red;
-  padding-top: 0px;
-  margin-top: 0px;
-  margin-bottom: 50px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-/*видалити і переписати*/
-
-
-.section-ourwork.h2 {
-  padding: 0px;
-  margin: 0px;
-  outline: 2px solid rgb(0, 255, 42);
+.section-ourwork .headline{
+   font-weight: 700;
+   margin-top: 0px;
+   margin-bottom: 50px;
+   color: var(--primary-text-color);
+   text-align: center;
+   outline: 5px solid red;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
 }
 
 /* наша команда*/
