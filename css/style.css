@@ -238,7 +238,7 @@ padding-top: 200px;
 .section-ourteam .subject {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2px;
+  line-height: 1.2;
   color: var(--main-text-color);
   letter-spacing: 0.03em;
   margin-bottom: 10px;
@@ -247,7 +247,7 @@ padding-top: 200px;
 .section-ourteam .heading {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
   margin-bottom: 0px;
@@ -267,7 +267,7 @@ padding-top: 200px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: var(--white-color);
   text-decoration: none;
   letter-spacing: 0.03em;
