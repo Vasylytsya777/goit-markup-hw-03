@@ -13,6 +13,13 @@
   margin: 0px;
   bottom: 0px;
 }
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 :root {
   --white-color: #ffffff;
   --black-color: #000000;
@@ -30,6 +37,11 @@ body {
 }
 /*=====================    Студія    =====================    */
 /* Шапка сторінки */
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .header {
   background-color: var(--white-color);
   font-family: Roboto, sans-serif;
@@ -47,6 +59,11 @@ body {
   outline: 2px solid red;
 }
 
+/* Навігаія сайту */
+.center-line {
+  display: flex;
+  align-self: center;
+}
 /* Лого */
 .webstudio {
   font-family: Raleway, sans-serif;
@@ -55,24 +72,26 @@ body {
   line-height: 1.192;
   color: var(--black-color);
   text-decoration: none;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo {
   color: var(--accent-color);
 }
-
-.list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.nav-site {
+  display: flex;
 }
+.nav-site .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
-/* Навігаія сайту */
-.nav-site a {
+  color: var(--black-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: var(--black-color);
   text-decoration: none;
 }
 .link:hover,
@@ -85,6 +104,25 @@ body {
 }
 
 /* Авторизація сайту */
+.nav-auth .item + .item {
+  margin-left: 50px;
+}
+.nav-auth {
+  display: flex;
+  margin-left: auto;
+}
+/*  ======вирівнюєм нашу навігацію разом із марджином, 
+і забираємо марджин в останнього
+.nav-site .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+нижче така сама команда (old shcool)
+*/
+.nav-site .item + .item {
+  margin-left: 50px;
+}
+
 .nav-auth a {
   font-style: normal;
   font-weight: 500;
@@ -186,16 +224,16 @@ body {
   line-height: 2;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
-  margin-bottom: 0px;
+  background-color: blue;
+  padding: 0px;
+  margin: 0px;
 }
-
-/* проблема вище!*/
 
 .section-ourwork {
   margin-top: 0px;
   margin-bottom: 109px;
+  display: flex;
 }
-
 /*чим ми займаємось млдуль 3 вебінар 5 34 хвилина*/
 
 /*видалити і переписати, для тега h2 дати інший клас!!!*/
@@ -209,7 +247,7 @@ body {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.667;
   letter-spacing: 0.03em;
 }
 
@@ -221,7 +259,7 @@ body {
 .section-ourteam .caption {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.667;
   text-align: center;
   color: var(--main-text-color);
   letter-spacing: 0.03em;
@@ -236,7 +274,7 @@ body {
 .section-ourteam .subject {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.188;
   color: var(--main-text-color);
   letter-spacing: 0.03em;
   margin-bottom: 10px;
@@ -245,7 +283,7 @@ body {
 .section-ourteam .heading {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.188;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
   margin-bottom: 0px;
@@ -311,7 +349,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.625;
   text-align: center;
   color: var(--main-text-color);
   border: none;
