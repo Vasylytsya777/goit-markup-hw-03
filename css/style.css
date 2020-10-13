@@ -28,7 +28,7 @@ body {
   background-color: var(--white-color);
   letter-spacing: 0.03em;
 }
-                                        /*Студія*/
+/*=====================    Студія    =====================    */
 /* Шапка сторінки */
 .header {
   background-color: var(--white-color);
@@ -125,7 +125,7 @@ outline: 2px solid red;
  .main {
   font-family: Roboto, sans-serif;
  }
-/* Секція герой */
+/*Секція герой */
 .section-hero {
 background-color: var(--main-footer-background-color);
 text-align: center;
@@ -308,7 +308,7 @@ padding-top: 200px;
 }
 
 
-                    /*Портфоліо*/
+/*=====================    Портфоліо    =====================*/
 .button-menu {
   display: inline-block;
   font-family: "Roboto", sans-serif;
