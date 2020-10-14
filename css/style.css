@@ -50,7 +50,9 @@ body {
 }
 
 /*=====================    Студія    =====================    */
+
 /* ===================== Шапка сторінки =====================*/
+
 /*ставимо вертикальні блоки в горизонт (лінію) і центруємо її*/
 .header {
   background-color: var(--white-color);
@@ -62,10 +64,9 @@ body {
   display: flex;
   align-items: center;
   /* Установит стили нинжней рамки */
-border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   /*justify-content: space-between;*/
 }
-
 
 /*Контейнер nav*/
 /*Задаємо глобальні параметри для контейнера*/
@@ -92,7 +93,7 @@ border-bottom: 1px solid #ececec;
   color: var(--accent-color);
 }
 
-/*ставимо вертикальні блоки в горизонт (лінію) (наші ссилки))*/
+/*ставимо вертикальні блоки в горизонтальну (лінію) (наші ссилки))*/
 .nav-site {
   display: flex;
 }
@@ -267,12 +268,10 @@ border-bottom: 1px solid #ececec;
 
 /*видалити і переписати, для тега h2 дати інший клас!!!*/
 
-
 /*це шо???*/
 .ourwork-img {
   display: block;
 }
-
 
 .section-ourwork {
   display: flex;
@@ -301,79 +300,75 @@ border-bottom: 1px solid #ececec;
   letter-spacing: 0.03em;
 }
 
-
-  /*=============   OUR TEAM   ==============*/
-  /* наша команда*/
-  .section-ourteam {
-    background-color: var(--background-grey-color);
-      margin: 0 auto;
+/*=============   OUR TEAM   ==============*/
+/* наша команда*/
+.section-ourteam {
+  background-color: var(--background-grey-color);
+  margin: 0 auto;
   padding-bottom: 94px;
-      padding-top: 94px;
-        
-  }
-  .ourteam-flex {
-    display: flex;
-  }
+  padding-top: 94px;
+}
+.ourteam-flex {
+  display: flex;
+}
 
-  /*задаєм правий марджин для картинок, крім першої (бо перша вже не міє сестринської Item)*/
-  .ourteam-flex .item {
+/*задаєм правий марджин для картинок, крім першої (бо перша вже не міє сестринської Item)*/
+.ourteam-flex .item {
   width: calc((100% - 3 * 30px) / 3);
   margin-right: 30px;
-  }
-
-  .section-ourteam .item {
-    width: 270px;
-      background-color: var(--white-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-
-  }
-
-  .section-ourteam .caption {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.667;
-    text-align: center;
-    color: var(--main-text-color);
-    letter-spacing: 0.03em;
-    margin-bottom: 50px;
-  }
-
-  .section-ourteam .image {
-    margin-bottom: 30px;
-  }
-
-  .section-ourteam .subject {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.188;
-    color: var(--main-text-color);
-    letter-spacing: 0.03em;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-  .section-ourteam .heading {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.188;
-    color: var(--secondary-text-color);
-    letter-spacing: 0.03em;
-    margin-bottom: 30px;
-    text-align: center;
-  }
 }
+
+.section-ourteam .item {
+  width: 270px;
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.section-ourteam .caption {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.667;
+  text-align: center;
+  color: var(--main-text-color);
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.section-ourteam .image {
+  margin-bottom: 30px;
+}
+
+.section-ourteam .subject {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  color: var(--main-text-color);
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section-ourteam .heading {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 /*=============   FOOTER   ==============*/
 
 /* footer підвал*/
 
 .footer {
-padding-top: 60px;
-padding-bottom: 60px;
-display: flex;
-align-items: baseline;
-
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: baseline;
 }
 
 .container-footer {
@@ -393,7 +388,6 @@ align-items: baseline;
 
 /* Підвал сторінки логотип */
 .webstudio-footer {
-
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -405,7 +399,6 @@ align-items: baseline;
 }
 .adress-footer {
   margin-top: 20px;
-
 }
 
 .adress-footer .white {
@@ -415,7 +408,6 @@ align-items: baseline;
   line-height: 1.71;
   color: var(--white-color);
   letter-spacing: 0.03em;
-
 }
 
 .adress-footer a {
@@ -426,7 +418,6 @@ align-items: baseline;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-
 }
 
 .mail:hover,
@@ -445,12 +436,11 @@ align-items: baseline;
   padding-bottom: 94px;
 }
 
-
 .button-container {
   display: flex;
   align-content: center;
   justify-content: center;
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .button-menu {
@@ -486,11 +476,10 @@ align-items: baseline;
 */
 
 /* секція робіт з картинками*/
-.project-item{
+.project-item {
   width: calc((100% - 2 * 30px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-
 }
 
 .project-item:hover {
@@ -498,7 +487,7 @@ align-items: baseline;
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-  /*забираємо правий марджин в кожного третього елемента*/
+/*забираємо правий марджин в кожного третього елемента*/
 .visually-container .project-item:nth-child(3n) {
   margin-right: 0px;
 }
@@ -508,46 +497,26 @@ align-items: baseline;
   margin-bottom: 0;
 }
 
-
-/*
-
-
-.visually-container {
-  display: block;
-  flex-wrap: wrap;
-  padding-bottom: 82px;
-}
-
-*/
 .visually-container .image {
   display: block;
   margin-bottom: 20px;
- 
 }
 .visually-container {
   display: flex;
   flex-wrap: wrap;
-
 }
-
 
 /* !!!!!!!!!!!!!!!!!!!! ось тут шукаю помилку! */
 .visually-container .item {
   display: inline-block;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
   line-height: 0;
-  box-sizing: border-box; 
-/*помилка з -2 */
+  box-sizing: border-box;
+  /*помилка з -2 */
 
   margin-right: 30px;
   margin-bottom: 30px;
-
-  }
-
-
-
-
-
+}
 
 .stitle {
   font-weight: 700;
@@ -568,5 +537,3 @@ align-items: baseline;
   margin: 0px 24px 0px;
   margin-bottom: 20px;
 }
-
-
