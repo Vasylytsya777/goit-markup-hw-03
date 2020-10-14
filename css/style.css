@@ -42,11 +42,12 @@ body {
   letter-spacing: 0.03em;
 }
 /*=====================    Студія    =====================    */
-/* Шапка сторінки */
+/* ===================== Шапка сторінки =====================*/
+/*ставимо вертикальні блоки в горизонт (лінію) і центруємо її*/
 .header-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 .header {
   background-color: var(--white-color);
@@ -55,6 +56,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 /*Контейнер nav*/
+/*Задаємо глобальні параметри для контейнера*/
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -65,6 +67,7 @@ body {
 }
 
 /* Навігаія сайту */
+/*ставимо вертикальні блоки в горизонт (лінію) і центруємо її*/
 .center-line {
   display: flex;
   align-self: center;
@@ -85,10 +88,12 @@ body {
   color: var(--accent-color);
 }
 
+/*ставимо вертикальні блоки в горизонт (лінію) (наші ссилки))*/
 .nav-site {
   display: flex;
 }
 
+/*робимо мейл і тел блочним*/
 .nav-site .link {
   display: block;
   padding-top: 32px;
@@ -111,9 +116,11 @@ body {
 }
 
 /* Авторизація сайту */
+/*задаєм лівий марджин для списку пошти і тел, крім першої (бо перша вже не міє сестринської Item)*/
 .nav-auth .item + .item {
   margin-left: 50px;
 }
+/*переводим вертикальний список в горизонтальний і позиціонуємо його в лівий край*/
 .nav-auth {
   display: flex;
   margin-left: auto;
@@ -126,6 +133,7 @@ body {
 
 нижче така сама команда (old shcool)
 */
+/*задаєм лівий марджин для списку ссилок, крім першої (бо перша вже не міє сестринської Item)*/
 .nav-site .item + .item {
   margin-left: 50px;
 }
@@ -211,14 +219,14 @@ body {
 }
 /* Секція особливості*/
 /*=============   FEATURES   ==============*/
-
+/*переводим вертикальний список в горизонтальний */
 .features-flex {
   display: flex;
 }
 .features-flex .item {
   width: 270px;
 }
-
+/*задаєм правий марджин для тексту, крім першого (бо перша вже не міє сестринської Item)*/
 .features-flex .item + .item {
   margin-left: 30px;
 }
@@ -262,7 +270,7 @@ body {
 .ourwork-flex {
   display: flex;
 }
-
+/*задаєм правий марджин для фоточок, крім першої (бо перша вже не міє сестринської Item)*/
 .ourwork-flex .item + .item {
   margin-left: 30px;
 }
@@ -283,6 +291,7 @@ body {
   display: flex;
 }
 
+/*задаєм правий марджин для картинок, крім першої (бо перша вже не міє сестринської Item)*/
 .ourteam-flex .item + .item {
   margin-left: 30px;
   align-items: center;
@@ -417,6 +426,7 @@ body {
   margin-bottom: 50px;
 }
 
+/*задаєм правий марджин для кнопок, крім першої (бо перша вже не міє сестринської Item)*/
 .button-container .item + .item {
   margin-left: 8px;
 }
@@ -432,12 +442,17 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.visually-container .item:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
+
+/*забираємо правий марджин в кожного третього елемента*/
 .visually-container .item:nth-child(3n) {
   margin-right: 0px;
 }
+
+/*забираємо нижній марджин в останніх трьох елементів*/
+.visually-container .item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
 .visually-container {
   display: flex;
   flex-wrap: wrap;
